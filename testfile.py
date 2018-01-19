@@ -10,7 +10,13 @@ print(z)
 #mylist.append(3)
 #print(mylist[0])
 #for x in mylist:
-    print(x)
+    #print(x)
 
 name = "Hal"
 print("I'm afrid I can't do that %s" %name)
+
+import pandas as pd
+
+test = pd.read_csv('test.csv')
+
+print(test)
