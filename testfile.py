@@ -16,8 +16,4 @@ for x in mylist:
 name = "Hal"
 print("I'm afrid I can't do that %s" %name)
 
-import pandas as pd
 
-test = pd.read_csv('test.csv')
-
-print(test)
